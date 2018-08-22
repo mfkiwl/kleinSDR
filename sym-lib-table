@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pkl_kleinSDR)(type Legacy)(uri ${KIPRJMOD}/pkl_kleinSDR.lib)(options "")(descr ""))
+)
