@@ -15,789 +15,46 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F7:STM32F767ZITx U?
-U 1 1 5B74E262
-P 3950 6500
-F 0 "U?" H 4800 10000 50  0000 C CNN
-F 1 "STM32F767ZITx" H 3950 6500 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 2950 3100 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 3950 6500 50  0001 C CNN
-	1    3950 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5B74E624
-P 3950 10250
-F 0 "#PWR?" H 3950 10000 50  0001 C CNN
-F 1 "GND" H 3955 10077 50  0000 C CNN
-F 2 "" H 3950 10250 50  0001 C CNN
-F 3 "" H 3950 10250 50  0001 C CNN
-	1    3950 10250
+P 7300 9500
+F 0 "#PWR?" H 7300 9250 50  0001 C CNN
+F 1 "GND" H 7305 9327 50  0000 C CNN
+F 2 "" H 7300 9500 50  0001 C CNN
+F 3 "" H 7300 9500 50  0001 C CNN
+	1    7300 9500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 10100 3550 10200
+	7300 9500 7300 9450
+Connection ~ 7300 9450
 Wire Wire Line
-	3550 10200 3650 10200
+	7300 9450 7400 9450
 Wire Wire Line
-	4450 10200 4450 10100
+	7300 9350 7300 9450
 Wire Wire Line
-	3950 10250 3950 10200
-Connection ~ 3950 10200
+	7100 9350 7100 9450
 Wire Wire Line
-	3950 10200 4050 10200
+	7100 9450 7200 9450
 Wire Wire Line
-	3950 10100 3950 10200
+	7200 9350 7200 9450
+Connection ~ 7200 9450
 Wire Wire Line
-	3650 10100 3650 10200
-Connection ~ 3650 10200
+	7200 9450 7300 9450
 Wire Wire Line
-	3650 10200 3750 10200
+	7400 9350 7400 9450
+Connection ~ 7400 9450
 Wire Wire Line
-	3750 10100 3750 10200
-Connection ~ 3750 10200
+	7400 9450 7500 9450
 Wire Wire Line
-	3750 10200 3850 10200
+	7500 9350 7500 9450
 Wire Wire Line
-	3850 10100 3850 10200
-Connection ~ 3850 10200
+	7725 1225 7825 1225
 Wire Wire Line
-	3850 10200 3950 10200
-Wire Wire Line
-	4050 10100 4050 10200
-Connection ~ 4050 10200
-Wire Wire Line
-	4050 10200 4150 10200
-Wire Wire Line
-	4150 10100 4150 10200
-Connection ~ 4150 10200
-Wire Wire Line
-	4150 10200 4250 10200
-Wire Wire Line
-	4250 10100 4250 10200
-Connection ~ 4250 10200
-Wire Wire Line
-	4250 10200 4350 10200
-Wire Wire Line
-	4350 10100 4350 10200
-Connection ~ 4350 10200
-Wire Wire Line
-	4350 10200 4450 10200
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5B74EACD
-P 4400 2000
-F 0 "#PWR?" H 4400 1850 50  0001 C CNN
-F 1 "+3V3" H 4415 2173 50  0000 C CNN
-F 2 "" H 4400 2000 50  0001 C CNN
-F 3 "" H 4400 2000 50  0001 C CNN
-	1    4400 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B74EB11
-P 4400 2250
-F 0 "C?" H 4400 2300 39  0000 L BNN
-F 1 "100nF" V 4350 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4400 2250 50  0001 C CNN
-F 3 "~" H 4400 2250 50  0001 C CNN
-	1    4400 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B74ECA1
-P 4400 2550
-F 0 "#PWR?" H 4400 2300 50  0001 C CNN
-F 1 "GND" H 4405 2377 50  0000 C CNN
-F 2 "" H 4400 2550 50  0001 C CNN
-F 3 "" H 4400 2550 50  0001 C CNN
-	1    4400 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 2550 4400 2500
-Wire Wire Line
-	4650 2900 4650 2800
-Wire Wire Line
-	4650 2800 4550 2800
-Wire Wire Line
-	3350 2800 3350 2900
-Wire Wire Line
-	3450 2900 3450 2800
-Connection ~ 3450 2800
-Wire Wire Line
-	3450 2800 3350 2800
-Wire Wire Line
-	3550 2900 3550 2800
-Connection ~ 3550 2800
-Wire Wire Line
-	3550 2800 3450 2800
-Wire Wire Line
-	3650 2900 3650 2800
-Connection ~ 3650 2800
-Wire Wire Line
-	3650 2800 3550 2800
-Wire Wire Line
-	3750 2900 3750 2800
-Connection ~ 3750 2800
-Wire Wire Line
-	3750 2800 3650 2800
-Wire Wire Line
-	3850 2900 3850 2800
-Connection ~ 3850 2800
-Wire Wire Line
-	3850 2800 3750 2800
-Wire Wire Line
-	3950 2900 3950 2800
-Connection ~ 3950 2800
-Wire Wire Line
-	3950 2800 3850 2800
-Wire Wire Line
-	4050 2900 4050 2800
-Connection ~ 4050 2800
-Wire Wire Line
-	4050 2800 3950 2800
-Wire Wire Line
-	4150 2900 4150 2800
-Connection ~ 4150 2800
-Wire Wire Line
-	4150 2800 4050 2800
-Wire Wire Line
-	4250 2900 4250 2800
-Connection ~ 4250 2800
-Wire Wire Line
-	4250 2800 4150 2800
-Wire Wire Line
-	4350 2900 4350 2800
-Connection ~ 4350 2800
-Wire Wire Line
-	4350 2800 4250 2800
-Wire Wire Line
-	4450 2900 4450 2800
-Connection ~ 4450 2800
-Wire Wire Line
-	4450 2800 4350 2800
-Wire Wire Line
-	4550 2900 4550 2800
-Connection ~ 4550 2800
-Wire Wire Line
-	4550 2800 4450 2800
-Wire Wire Line
-	4650 2800 4650 2050
-Connection ~ 4650 2800
-Wire Wire Line
-	4400 2000 4400 2050
-Wire Wire Line
-	4650 2050 4400 2050
-Connection ~ 4400 2050
-Wire Wire Line
-	4400 2050 4400 2150
-$Comp
-L Device:C_Small C?
-U 1 1 5B755CEF
-P 4250 2250
-F 0 "C?" H 4250 2300 39  0000 L BNN
-F 1 "100nF" V 4200 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4250 2250 50  0001 C CNN
-F 3 "~" H 4250 2250 50  0001 C CNN
-	1    4250 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755D1E
-P 4100 2250
-F 0 "C?" H 4100 2300 39  0000 L BNN
-F 1 "100nF" V 4050 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4100 2250 50  0001 C CNN
-F 3 "~" H 4100 2250 50  0001 C CNN
-	1    4100 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755D4E
-P 3950 2250
-F 0 "C?" H 3950 2300 39  0000 L BNN
-F 1 "100nF" V 3900 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3950 2250 50  0001 C CNN
-F 3 "~" H 3950 2250 50  0001 C CNN
-	1    3950 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755D6A
-P 3800 2250
-F 0 "C?" H 3800 2300 39  0000 L BNN
-F 1 "100nF" V 3750 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 2250 50  0001 C CNN
-F 3 "~" H 3800 2250 50  0001 C CNN
-	1    3800 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755D88
-P 3650 2250
-F 0 "C?" H 3650 2300 39  0000 L BNN
-F 1 "100nF" V 3600 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3650 2250 50  0001 C CNN
-F 3 "~" H 3650 2250 50  0001 C CNN
-	1    3650 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755DA8
-P 3500 2250
-F 0 "C?" H 3500 2300 39  0000 L BNN
-F 1 "100nF" V 3450 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 2250 50  0001 C CNN
-F 3 "~" H 3500 2250 50  0001 C CNN
-	1    3500 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755DD2
-P 3350 2250
-F 0 "C?" H 3350 2300 39  0000 L BNN
-F 1 "100nF" V 3300 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3350 2250 50  0001 C CNN
-F 3 "~" H 3350 2250 50  0001 C CNN
-	1    3350 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755DF6
-P 3200 2250
-F 0 "C?" H 3200 2300 39  0000 L BNN
-F 1 "100nF" V 3150 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3200 2250 50  0001 C CNN
-F 3 "~" H 3200 2250 50  0001 C CNN
-	1    3200 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755E20
-P 3050 2250
-F 0 "C?" H 3050 2300 39  0000 L BNN
-F 1 "100nF" V 3000 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3050 2250 50  0001 C CNN
-F 3 "~" H 3050 2250 50  0001 C CNN
-	1    3050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755E48
-P 2900 2250
-F 0 "C?" H 2900 2300 39  0000 L BNN
-F 1 "100nF" V 2850 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2900 2250 50  0001 C CNN
-F 3 "~" H 2900 2250 50  0001 C CNN
-	1    2900 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755E72
-P 2750 2250
-F 0 "C?" H 2750 2300 39  0000 L BNN
-F 1 "100nF" V 2700 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2750 2250 50  0001 C CNN
-F 3 "~" H 2750 2250 50  0001 C CNN
-	1    2750 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755EA0
-P 2600 2250
-F 0 "C?" H 2600 2300 39  0000 L BNN
-F 1 "100nF" V 2550 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2600 2250 50  0001 C CNN
-F 3 "~" H 2600 2250 50  0001 C CNN
-	1    2600 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5B755ED4
-P 2450 2250
-F 0 "C?" H 2450 2300 39  0000 L BNN
-F 1 "100nF" V 2400 2200 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2450 2250 50  0001 C CNN
-F 3 "~" H 2450 2250 50  0001 C CNN
-	1    2450 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 2050 4250 2050
-Wire Wire Line
-	2450 2050 2450 2150
-Wire Wire Line
-	2600 2150 2600 2050
-Connection ~ 2600 2050
-Wire Wire Line
-	2600 2050 2450 2050
-Wire Wire Line
-	2750 2150 2750 2050
-Connection ~ 2750 2050
-Wire Wire Line
-	2750 2050 2600 2050
-Wire Wire Line
-	2900 2150 2900 2050
-Connection ~ 2900 2050
-Wire Wire Line
-	2900 2050 2750 2050
-Wire Wire Line
-	3050 2150 3050 2050
-Connection ~ 3050 2050
-Wire Wire Line
-	3050 2050 2900 2050
-Wire Wire Line
-	3200 2150 3200 2050
-Connection ~ 3200 2050
-Wire Wire Line
-	3200 2050 3050 2050
-Wire Wire Line
-	3350 2150 3350 2050
-Connection ~ 3350 2050
-Wire Wire Line
-	3350 2050 3200 2050
-Wire Wire Line
-	3500 2150 3500 2050
-Connection ~ 3500 2050
-Wire Wire Line
-	3500 2050 3350 2050
-Wire Wire Line
-	3650 2150 3650 2050
-Connection ~ 3650 2050
-Wire Wire Line
-	3650 2050 3500 2050
-Wire Wire Line
-	3800 2150 3800 2050
-Connection ~ 3800 2050
-Wire Wire Line
-	3800 2050 3650 2050
-Wire Wire Line
-	3950 2150 3950 2050
-Connection ~ 3950 2050
-Wire Wire Line
-	3950 2050 3800 2050
-Wire Wire Line
-	4100 2150 4100 2050
-Connection ~ 4100 2050
-Wire Wire Line
-	4100 2050 3950 2050
-Wire Wire Line
-	4250 2150 4250 2050
-Connection ~ 4250 2050
-Wire Wire Line
-	4250 2050 4100 2050
-Wire Wire Line
-	4400 2500 4250 2500
-Wire Wire Line
-	2450 2500 2450 2350
-Connection ~ 4400 2500
-Wire Wire Line
-	4400 2500 4400 2350
-Wire Wire Line
-	2600 2350 2600 2500
-Connection ~ 2600 2500
-Wire Wire Line
-	2600 2500 2450 2500
-Wire Wire Line
-	2750 2350 2750 2500
-Connection ~ 2750 2500
-Wire Wire Line
-	2750 2500 2600 2500
-Wire Wire Line
-	2900 2350 2900 2500
-Connection ~ 2900 2500
-Wire Wire Line
-	2900 2500 2750 2500
-Wire Wire Line
-	3050 2350 3050 2500
-Connection ~ 3050 2500
-Wire Wire Line
-	3050 2500 2900 2500
-Wire Wire Line
-	3200 2350 3200 2500
-Connection ~ 3200 2500
-Wire Wire Line
-	3200 2500 3050 2500
-Wire Wire Line
-	3350 2350 3350 2500
-Connection ~ 3350 2500
-Wire Wire Line
-	3350 2500 3200 2500
-Wire Wire Line
-	3500 2350 3500 2500
-Connection ~ 3500 2500
-Wire Wire Line
-	3500 2500 3350 2500
-Wire Wire Line
-	3650 2350 3650 2500
-Connection ~ 3650 2500
-Wire Wire Line
-	3650 2500 3500 2500
-Wire Wire Line
-	3800 2350 3800 2500
-Connection ~ 3800 2500
-Wire Wire Line
-	3800 2500 3650 2500
-Wire Wire Line
-	3950 2350 3950 2500
-Connection ~ 3950 2500
-Wire Wire Line
-	3950 2500 3800 2500
-Wire Wire Line
-	4100 2350 4100 2500
-Connection ~ 4100 2500
-Wire Wire Line
-	4100 2500 3950 2500
-Wire Wire Line
-	4250 2350 4250 2500
-Connection ~ 4250 2500
-Wire Wire Line
-	4250 2500 4100 2500
-$Comp
-L Device:C C?
-U 1 1 5B7A04B2
-P 2250 2250
-F 0 "C?" H 2250 2300 39  0000 L BNN
-F 1 "1uF" V 2250 2200 39  0000 R BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2288 2100 50  0001 C CNN
-F 3 "~" H 2250 2250 50  0001 C CNN
-	1    2250 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5B7A07B9
-P 2050 2250
-F 0 "C?" H 2050 2300 39  0000 L BNN
-F 1 "1uF" V 2050 2200 39  0000 R BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 2100 50  0001 C CNN
-F 3 "~" H 2050 2250 50  0001 C CNN
-	1    2050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5B7A07EF
-P 1850 2250
-F 0 "C?" H 1850 2300 39  0000 L BNN
-F 1 "1uF" V 1850 2200 39  0000 R BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 2100 50  0001 C CNN
-F 3 "~" H 1850 2250 50  0001 C CNN
-	1    1850 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5B7A0827
-P 1650 2250
-F 0 "C?" H 1650 2300 39  0000 L BNN
-F 1 "1uF" V 1650 2200 39  0000 R BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 2100 50  0001 C CNN
-F 3 "~" H 1650 2250 50  0001 C CNN
-	1    1650 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 2050 2250 2050
-Wire Wire Line
-	1650 2050 1650 2100
-Connection ~ 2450 2050
-Wire Wire Line
-	1850 2100 1850 2050
-Connection ~ 1850 2050
-Wire Wire Line
-	1850 2050 1650 2050
-Wire Wire Line
-	2050 2100 2050 2050
-Connection ~ 2050 2050
-Wire Wire Line
-	2050 2050 1850 2050
-Wire Wire Line
-	2250 2100 2250 2050
-Connection ~ 2250 2050
-Wire Wire Line
-	2250 2050 2050 2050
-Wire Wire Line
-	2450 2500 2250 2500
-Wire Wire Line
-	1650 2500 1650 2400
-Connection ~ 2450 2500
-Wire Wire Line
-	1850 2400 1850 2500
-Connection ~ 1850 2500
-Wire Wire Line
-	1850 2500 1650 2500
-Wire Wire Line
-	2050 2400 2050 2500
-Connection ~ 2050 2500
-Wire Wire Line
-	2050 2500 1850 2500
-Wire Wire Line
-	2250 2400 2250 2500
-Connection ~ 2250 2500
-Wire Wire Line
-	2250 2500 2050 2500
-$Comp
-L Device:C C?
-U 1 1 5B7BEACD
-P 2150 4150
-F 0 "C?" H 2150 4200 39  0000 L BNN
-F 1 "2.2uF" V 2150 4100 39  0000 R BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2188 4000 50  0001 C CNN
-F 3 "~" H 2150 4150 50  0001 C CNN
-	1    2150 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5B7BEB67
-P 1950 4150
-F 0 "C?" H 1950 4200 39  0000 L BNN
-F 1 "2.2uF" V 1950 4100 39  0000 R BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 4000 50  0001 C CNN
-F 3 "~" H 1950 4150 50  0001 C CNN
-	1    1950 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 3800 2150 3800
-Wire Wire Line
-	2150 3800 2150 4000
-Wire Wire Line
-	2750 3700 1950 3700
-Wire Wire Line
-	1950 3700 1950 4000
-$Comp
-L power:GND #PWR?
-U 1 1 5B7C8097
-P 1950 4450
-F 0 "#PWR?" H 1950 4200 50  0001 C CNN
-F 1 "GND" H 1955 4277 50  0000 C CNN
-F 2 "" H 1950 4450 50  0001 C CNN
-F 3 "" H 1950 4450 50  0001 C CNN
-	1    1950 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 4300 1950 4400
-Wire Wire Line
-	1950 4400 2150 4400
-Wire Wire Line
-	2150 4400 2150 4300
-Wire Wire Line
-	1950 4450 1950 4400
-Connection ~ 1950 4400
-$Comp
-L Device:R_Small R?
-U 1 1 5B7D5615
-P 2300 3300
-F 0 "R?" V 2350 3300 39  0000 C TNN
-F 1 "10k" V 2300 3300 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 3300 50  0001 C CNN
-F 3 "~" H 2300 3300 50  0001 C CNN
-	1    2300 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2750 3300 2400 3300
-Wire Wire Line
-	2150 3300 2150 2800
-Wire Wire Line
-	2150 2800 3350 2800
-Connection ~ 3350 2800
-$Comp
-L Device:C_Small C?
-U 1 1 5B7E02DD
-P 1750 4150
-F 0 "C?" H 1750 4200 39  0000 L BNN
-F 1 "100nF" V 1700 4100 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1750 4150 50  0001 C CNN
-F 3 "~" H 1750 4150 50  0001 C CNN
-	1    1750 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 3200 1750 3200
-Wire Wire Line
-	1750 3200 1750 4050
-Wire Wire Line
-	1750 4250 1750 4400
-Wire Wire Line
-	1750 4400 1850 4400
-Text Label 2500 3200 0    50   ~ 0
-NRST
-$Comp
-L Device:R_Small R?
-U 1 1 5B7FCCCD
-P 2300 3500
-F 0 "R?" V 2350 3500 39  0000 C TNN
-F 1 "10k" V 2300 3500 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 3500 50  0001 C CNN
-F 3 "~" H 2300 3500 50  0001 C CNN
-	1    2300 3500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2750 3500 2400 3500
-Wire Wire Line
-	2200 3500 1850 3500
-Wire Wire Line
-	1850 3500 1850 4400
-Connection ~ 1850 4400
-Wire Wire Line
-	1850 4400 1950 4400
-Wire Wire Line
-	2150 3300 2200 3300
-Text Label 2500 3500 0    50   ~ 0
-BOOT0
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5B82D8C0
-P 650 3450
-F 0 "J?" H 650 3200 50  0000 C CNN
-F 1 "DFU Mode" H 700 3300 50  0000 R TNN
-F 2 "" H 650 3450 50  0001 C CNN
-F 3 "~" H 650 3450 50  0001 C CNN
-	1    650  3450
-	-1   0    0    1   
-$EndComp
-Text Notes 600  3700 0    50   ~ 0
-Open  GND  Flash\nClose  VDD  DFU
-Wire Wire Line
-	850  3450 900  3450
-Text Label 900  3450 0    50   ~ 0
-BOOT0
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5B8354D3
-P 1050 3250
-F 0 "#PWR?" H 1050 3100 50  0001 C CNN
-F 1 "+3V3" H 1065 3423 50  0000 C CNN
-F 2 "" H 1050 3250 50  0001 C CNN
-F 3 "" H 1050 3250 50  0001 C CNN
-	1    1050 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 3250 1050 3350
-Wire Wire Line
-	1050 3350 850  3350
-Text Notes 600  3000 0    50   ~ 10
-Boot Mode
-Wire Notes Line
-	550  2900 550  3700
-Wire Notes Line
-	550  3700 1350 3700
-Wire Notes Line
-	1350 3700 1350 2900
-Wire Notes Line
-	1350 2900 550  2900
-$Comp
-L Device:C_Small C?
-U 1 1 5B84FD30
-P 2700 4150
-F 0 "C?" H 2700 4200 39  0000 L BNN
-F 1 "100nF" V 2650 4100 39  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2700 4150 50  0001 C CNN
-F 3 "~" H 2700 4150 50  0001 C CNN
-	1    2700 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5B84FE56
-P 2500 4150
-F 0 "C?" H 2500 4200 39  0000 L BNN
-F 1 "1uF" V 2500 4100 39  0000 R BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 4000 50  0001 C CNN
-F 3 "~" H 2500 4150 50  0001 C CNN
-	1    2500 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 3900 2700 3900
-Wire Wire Line
-	2500 3900 2500 4000
-Wire Wire Line
-	2700 4050 2700 3900
-Connection ~ 2700 3900
-Wire Wire Line
-	2700 3900 2500 3900
-Wire Wire Line
-	2500 4300 2500 4400
-Wire Wire Line
-	2500 4400 2150 4400
-Connection ~ 2150 4400
-Wire Wire Line
-	2700 4250 2700 4400
-Wire Wire Line
-	2700 4400 2500 4400
-Connection ~ 2500 4400
-$Comp
-L Device:R_Small R?
-U 1 1 5B8CE6B2
-P 2350 3900
-F 0 "R?" V 2400 3900 39  0000 C TNN
-F 1 "22E" V 2350 3900 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2350 3900 50  0001 C CNN
-F 3 "~" H 2350 3900 50  0001 C CNN
-	1    2350 3900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 3900 2500 3900
-Connection ~ 2500 3900
-$Comp
-L Device:L_Small L?
-U 1 1 5B8DD5DC
-P 1500 3700
-F 0 "L?" H 1547 3746 50  0000 L CNN
-F 1 "47u" H 1547 3655 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 1500 3700 50  0001 C CNN
-F 3 "~" H 1500 3700 50  0001 C CNN
-	1    1500 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 3900 1500 3800
-Wire Wire Line
-	1500 3900 2250 3900
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5B8E5372
-P 1500 3550
-F 0 "#PWR?" H 1500 3400 50  0001 C CNN
-F 1 "+3V3" H 1515 3723 50  0000 C CNN
-F 2 "" H 1500 3550 50  0001 C CNN
-F 3 "" H 1500 3550 50  0001 C CNN
-	1    1500 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 3550 1500 3600
-Wire Wire Line
-	5150 4300 5250 4300
-Wire Wire Line
-	5150 4400 5250 4400
-Text Label 5525 4300 0    50   ~ 0
+	7725 1325 7825 1325
+Text Label 8100 1225 0    50   ~ 0
 USB_N
-Text Label 5525 4400 0    50   ~ 0
+Text Label 8100 1325 0    50   ~ 0
 USB_P
 $Comp
 L pkl_kleinSDR:USB_B_Mini J?
@@ -813,73 +70,51 @@ $EndComp
 $Comp
 L pkl_kleinSDR:USBLC6-2SC6 U?
 U 1 1 5B92FDD9
-P 6300 4350
-F 0 "U?" H 6300 4692 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 6300 4601 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6375 4050 50  0001 C CNN
-F 3 "" V 6725 4150 50  0001 C CNN
-	1    6300 4350
+P 8875 1275
+F 0 "U?" H 8875 1617 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 8875 1526 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8950 975 50  0001 C CNN
+F 3 "" V 9300 1075 50  0001 C CNN
+	1    8875 1275
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5B940A1C
-P 5350 4300
-F 0 "R?" V 5375 4375 39  0000 L TNN
-F 1 "22E" V 5350 4300 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5350 4300 50  0001 C CNN
-F 3 "~" H 5350 4300 50  0001 C CNN
-	1    5350 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5B940ABE
-P 5350 4400
-F 0 "R?" V 5375 4475 39  0000 L TNN
-F 1 "22E" V 5350 4400 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5350 4400 50  0001 C CNN
-F 3 "~" H 5350 4400 50  0001 C CNN
-	1    5350 4400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	5825 4300 5825 4250
+	8400 1225 8400 1175
 Wire Wire Line
-	5825 4250 5950 4250
+	8400 1175 8525 1175
 Wire Wire Line
-	5450 4300 5825 4300
+	8025 1225 8400 1225
 Wire Wire Line
-	5825 4400 5825 4450
+	8400 1325 8400 1375
 Wire Wire Line
-	5825 4450 5950 4450
+	8400 1375 8525 1375
 Wire Wire Line
-	5450 4400 5825 4400
+	8025 1325 8400 1325
 Wire Wire Line
-	5950 4350 5875 4350
+	8525 1275 8450 1275
 Wire Wire Line
-	5875 4350 5875 4650
+	8450 1275 8450 1575
 Wire Wire Line
-	6650 4350 6725 4350
+	9225 1275 9300 1275
 Wire Wire Line
-	6725 4125 6725 4350
+	9300 1050 9300 1275
 Wire Wire Line
-	6650 4250 6825 4250
+	9225 1175 9400 1175
 Wire Wire Line
-	6650 4450 6825 4450
-Text Label 6825 4250 0    50   ~ 0
+	9225 1375 9400 1375
+Text Label 9400 1175 0    50   ~ 0
 xUSB_N
-Text Label 6825 4450 0    50   ~ 0
+Text Label 9400 1375 0    50   ~ 0
 xUSB_P
 $Comp
 L power:VBUS #PWR?
 U 1 1 5B9AE100
-P 6725 4125
-F 0 "#PWR?" H 6725 3975 50  0001 C CNN
-F 1 "VBUS" H 6740 4298 50  0000 C CNN
-F 2 "" H 6725 4125 50  0001 C CNN
-F 3 "" H 6725 4125 50  0001 C CNN
-	1    6725 4125
+P 9300 1050
+F 0 "#PWR?" H 9300 900 50  0001 C CNN
+F 1 "VBUS" H 9315 1223 50  0000 C CNN
+F 2 "" H 9300 1050 50  0001 C CNN
+F 3 "" H 9300 1050 50  0001 C CNN
+	1    9300 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -917,7 +152,7 @@ F 3 "" H 6275 1725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 5575 675  0    50   ~ 10
-USB
+USB Connector
 Wire Notes Line
 	5550 575  6975 575 
 Wire Notes Line
@@ -938,12 +173,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5BA689AC
-P 5875 4650
-F 0 "#PWR?" H 5875 4400 50  0001 C CNN
-F 1 "GND" H 5880 4477 50  0000 C CNN
-F 2 "" H 5875 4650 50  0001 C CNN
-F 3 "" H 5875 4650 50  0001 C CNN
-	1    5875 4650
+P 8450 1575
+F 0 "#PWR?" H 8450 1325 50  0001 C CNN
+F 1 "GND" H 8455 1402 50  0000 C CNN
+F 2 "" H 8450 1575 50  0001 C CNN
+F 3 "" H 8450 1575 50  0001 C CNN
+	1    8450 1575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -952,4 +187,59 @@ Wire Wire Line
 	5900 1425 5900 1675
 Wire Wire Line
 	5900 1675 6275 1675
+$Comp
+L stm32:STM32F407VGTx U?
+U 1 1 5B86C0DA
+P 7300 6450
+F 0 "U?" H 11450 3700 50  0000 C CNN
+F 1 "STM32F407VGTx" H 3300 3650 50  0000 C CNN
+F 2 "LQFP100" H 11600 9225 50  0001 R TNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 7300 6450 50  0001 C CNN
+	1    7300 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R?
+U 1 1 5B88AB90
+P 7925 1225
+F 0 "R?" V 7850 1225 50  0000 C CNN
+F 1 "22E" V 7925 1225 39  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 7925 1225 50  0001 C CNN
+F 3 "~" H 7925 1225 50  0001 C CNN
+	1    7925 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R_Small R?
+U 1 1 5B88AC00
+P 7925 1325
+F 0 "R?" V 8000 1325 50  0000 C CNN
+F 1 "22E" V 7925 1325 39  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 7925 1325 50  0001 C CNN
+F 3 "~" H 7925 1325 50  0001 C CNN
+	1    7925 1325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11800 5050 11900 5050
+Wire Wire Line
+	11900 5150 11800 5150
+Text Label 11900 5050 0    50   ~ 0
+USB_OTG_FS_DM
+Text Label 11900 5150 0    50   ~ 0
+USB_OTG_FS_DP
+Text Label 7725 1225 2    50   ~ 0
+USB_OTG_FS_DM
+Text Label 7725 1325 2    50   ~ 0
+USB_OTG_FS_DP
+Text Notes 7100 675  0    50   ~ 10
+USB Connector
+Wire Notes Line
+	7000 575  7000 1975
+Wire Notes Line
+	7000 1975 9900 1975
+Wire Notes Line
+	9900 1975 9900 575 
+Wire Notes Line
+	9900 575  7000 575 
 $EndSCHEMATC
