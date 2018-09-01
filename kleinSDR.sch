@@ -975,7 +975,7 @@ Wire Wire Line
 Text Label 3600 5400 2    50   ~ 0
 ButtonPwr
 Wire Wire Line
-	3600 5400 3675 5400
+	3100 5400 3675 5400
 $Comp
 L Device:Rotary_Encoder SW18
 U 1 1 5B96C907
@@ -2145,13 +2145,13 @@ $EndComp
 Wire Wire Line
 	2375 4475 2375 4525
 Text Notes 10325 10450 0    50   ~ 0
-TO DO:\n1. Check all pin assignments\n2. Check HSE/clock design\n3. Design power circuit\n4. Can I make Cap 1 & 2 4.7uF?
+TO DO:\n1. Check all pin assignments\n2. Check HSE/clock design\n3. Design power circuit\n4. Can I make Cap 1 & 2 4.7uF?\n5. Do paddle dah and dit connections\n
 $Comp
 L Connector_Generic:Conn_01x30 J?
 U 1 1 5C1284BA
 P 15925 2375
 F 0 "J?" H 15900 725 50  0000 L CNN
-F 1 "Conn_01x30" H 15725 3900 50  0000 L CNN
+F 1 "30pin Board to Board" H 15150 3950 50  0000 L CNN
 F 2 "" H 15925 2375 50  0001 C CNN
 F 3 "~" H 15925 2375 50  0001 C CNN
 	1    15925 2375
@@ -2247,10 +2247,10 @@ Wire Wire Line
 Wire Wire Line
 	15125 3375 15725 3375
 Connection ~ 15125 3875
-Text Label 15650 3275 2    50   ~ 0
-SDA
-Text Label 15650 3175 2    50   ~ 0
-SCL
+Text Label 15075 3275 2    50   ~ 0
+I2C1_SDA
+Text Label 15075 3175 2    50   ~ 0
+I2C1_SCL
 NoConn ~ 15650 3075
 NoConn ~ 15650 2975
 NoConn ~ 15650 2875
@@ -4803,7 +4803,7 @@ Text Label 3600 7500 2    50   ~ 0
 SAI1_SD_B
 Text Label 3600 7800 2    50   ~ 0
 SAI1_FS_B
-Text Label 6150 5800 0    50   ~ 0
+Text Label 6150 9200 0    50   ~ 0
 SAI1_SD_A
 Text Label 3600 7700 2    50   ~ 0
 SAI1_SCK_B
@@ -5460,4 +5460,76 @@ Wire Wire Line
 	12625 5875 12625 6525
 Wire Wire Line
 	12625 6525 12025 6525
+Text Label 6150 4000 0    50   ~ 0
+DAC1
+Wire Wire Line
+	6150 4000 6075 4000
+Text Label 3600 7200 2    50   ~ 0
+ADC3
+Wire Wire Line
+	3600 7200 3675 7200
+Text Label 6150 3800 0    50   ~ 0
+ADC2
+Wire Wire Line
+	6150 3800 6075 3800
+Text Label 6150 4100 0    50   ~ 0
+ADC1
+Wire Wire Line
+	6150 4100 6075 4100
+Text Label 6150 5300 0    50   ~ 0
+PTT_ON
+Wire Wire Line
+	6150 5300 6075 5300
+Text Label 6150 7700 0    50   ~ 0
+PWR_DWN
+Wire Wire Line
+	6150 7700 6075 7700
+Text Label 3600 5200 2    50   ~ 0
+BAND0
+Wire Wire Line
+	3600 5200 3675 5200
+Text Label 6150 4300 0    50   ~ 0
+BAND1
+Wire Wire Line
+	6150 4300 6075 4300
+Text Label 6150 4500 0    50   ~ 0
+BAND2
+Wire Wire Line
+	6150 4500 6075 4500
+Text Label 3100 5400 2    50   ~ 0
+PWR_BUTTON
+Wire Wire Line
+	6150 9200 6075 9200
+$Comp
+L Device:R_Small R?
+U 1 1 609D9B38
+P 15550 3175
+F 0 "R?" V 15525 3300 39  0000 C CNN
+F 1 "47E" V 15550 3175 39  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 15550 3175 50  0001 C CNN
+F 3 "~" H 15550 3175 50  0001 C CNN
+	1    15550 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 609DA594
+P 15550 3275
+F 0 "R?" V 15525 3400 39  0000 C CNN
+F 1 "47E" V 15550 3275 39  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 15550 3275 50  0001 C CNN
+F 3 "~" H 15550 3275 50  0001 C CNN
+	1    15550 3275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15450 3275 15075 3275
+Wire Wire Line
+	15450 3175 15075 3175
+Text Label 6150 5800 0    50   ~ 0
+I2C1_SCL
+Wire Wire Line
+	6075 5900 6150 5900
+Text Label 6150 5900 0    50   ~ 0
+I2C1_SDA
 $EndSCHEMATC
